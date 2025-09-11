@@ -1,0 +1,92 @@
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0;
+     background: #f7f7f7;
+     display: grid;
+     gap: 60px;
+     justify-items: center;
+     margin-top: 60px;
+}
+img{
+     max-width: 100%;
+     display: block;
+}
+a{
+     text-decoration: none;
+}
+p,h1,h2,h3{
+     margin: 0px;
+}
+p{
+     font-size: 20px;
+     line-height: 1.3;/*Atributo importante*/
+}
+.menu{
+     display: flex;
+     gap: 20px;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+.menu a {
+     background: white;
+     padding: 15px 30px;
+     border-radius: 4px;
+     color: black;
+     text-transform: uppercase;
+}
+.conteudo{/*É AQUI QUE EU CONSIGO DIVIDIR BICLETAS FEITAS A MAO DE UM LADO E A IMG DA BIKE AO OUTRO LADO*/
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     max-width: 1000px;
+}
+.introducao{
+     
+     align-content:center ;
+     background: white;
+     padding: 40px;
+     text-align: end;/*depois que eu coloco esse text-align,meu h1,p e botão vão centralizar a esquerda sem eu ter que mexer individualmente em cada um.*/
+     position: relative;
+     display: grid;
+     gap: 20px;
+     justify-items: right;/*sem essa propriedade a barra do "ver mais" ia pegar de ponta a ponta, com a propriedade,fica ajustado*/
+}
+.link{
+     /* display: inline-block; */ /*como na div introdução, eu defini como display grid, não preciso ter esse inline-block. */
+     /* text-align: center; */
+     padding: 10px 20px;
+     color: white;
+     background: #e21;
+     border-radius: 4px;
+     text-align: end;
+     text-transform: uppercase;
+
+}
+.subtitulo{
+     font-size: 64px;
+     text-transform: uppercase;
+     color: rgba(0, 0, 0, 0.2);
+     text-align: right;
+     align-self: center;/*alinha so um item dentro do grid*/
+     padding: 40px;
+
+}
+.vantagens{
+     padding: 40px;
+     background: #fff;  
+}
+.vantagens-itens{
+     display: grid;
+     grid-template-columns: auto  1fr;/*A primeira coluna é do tamanho do ícone, então a primeira será auto e a segunda eu tenho que distribuir o conteúdo.*/
+     gap:10px 20px;
+     padding: 20px;
+}
+.vantagens-itens p{
+     grid-column: 2;/*aqui eu preciso colocar o conteúdo (p) na segunda coluna*/
+}
+.rodape{
+     background: #fff;
+     width: 100%;
+     text-align: center;
+     padding: 40px;
+     box-sizing: border-box;
+}
