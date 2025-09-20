@@ -4,12 +4,6 @@ Projeto desenvolvido como exercício prático de **HTML5 e CSS3**, inspirado no 
 O objetivo foi treinar **grid layout, flexbox, estilização de menus, hover effects e estruturação semântica do HTML**.
 
 ---
-
-##  Preview
-![Preview do projeto](img/bicicleta%20-%20By%20@iAzazelOfc%20🔥.jpg)
-
----
-
 ## Tecnologias utilizadas
 - **HTML5** – Estrutura da página  
 - **CSS3** – Estilização, Grid Layout e Flexbox  
@@ -26,5 +20,5 @@ O objetivo foi treinar **grid layout, flexbox, estilização de menus, hover eff
 
 ---
 
-## 📂 Estrutura de pastas
+
 
