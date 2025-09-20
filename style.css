@@ -33,6 +33,17 @@ p{
      border-radius: 4px;
      color: black;
      text-transform: uppercase;
+     transition: all;
+     
+
+}
+.links-menu:hover{
+     background: #e21;
+     color: white;
+     font-size: 18px;
+     transition: 0.5s;
+      border:2px solid black ;
+     /* text-decoration-line: underline; */
 }
 .conteudo{/*É AQUI QUE EU CONSIGO DIVIDIR BICLETAS FEITAS A MAO DE UM LADO E A IMG DA BIKE AO OUTRO LADO*/
      display: grid;
@@ -61,14 +72,19 @@ p{
      text-transform: uppercase;
 
 }
+.link:hover{
+     background: rgb(143, 23, 12);
+
+}
 .subtitulo{
+
      font-size: 64px;
      text-transform: uppercase;
      color: rgba(0, 0, 0, 0.2);
      text-align: right;
      align-self: center;/*alinha so um item dentro do grid*/
      padding: 40px;
-
+     background-image: url(img/onda\ -\ By\ @iAzazelOfc\ 🔥.svg );
 }
 .vantagens{
      padding: 40px;
@@ -80,9 +96,19 @@ p{
      gap:10px 20px;
      padding: 20px;
 }
+.vantagens-itens:hover.vantagens-itens:hover:nth-child(1n){
+    
+      border-left:3px solid #e21 ;
+
+}
+.vantagens>.vantagens-itens:nth-child(odd) {
+     background: rgba(202, 202, 202, 0.2)  ; 
+    
+}
 .vantagens-itens p{
      grid-column: 2;/*aqui eu preciso colocar o conteúdo (p) na segunda coluna*/
 }
+
 .rodape{
      background: #fff;
      width: 100%;
